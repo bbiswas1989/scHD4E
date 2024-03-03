@@ -19,60 +19,40 @@ if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(version = "3.14")
 
-Install edgeR:
 BiocManager::install("edgeR")
-library(edgeR)
 
-Install Limma:
 BiocManager::install("limma")
-library(limma)
 
-Install DESeq2:
 BiocManager::install("DESeq2")
-library(DESeq2)
 
-Install scDD:
 BiocManager::install("scDD")
-library(scDD)
 
-Install BPSC:
 devtools::install_github("nghiavtr/BPSC")
-library(BPSC)
 
 BiocManager::install("DEsingle")
-library(DEsingle)
 
 BiocManager::install("MAST")
-library(MAST)
 
 BiocManager::install("monocle")
-library(monocle)
 
 BiocManager::install("Seurat")
-library(Seurat)
 
 install.packages("remotes")
+
 remotes::install_github("sam-uofl/SwarnSeq")
 
 install.packages("devtools")
-library("devtools")
 
 devtools::install_github("statOmics/zingeR")
-library(zingeR)
 
 BiocManager::install("SingleCellExperiment")
-library(SingleCellExperiment)
 
 BiocManager::install("scater")
-library(scater)
-
-Dependencies must be installed correctly before the installation of scHD4E package, otherwise it may does not work properly.
 
 install.packages("aggregation")
-library(aggregation)
 
 devtools::install_github("Zhangxf-ccnu/scDEA")
-library("scDEA")
 
 install_github('krishan57gupta/ROSeq')
-library(ROSeq)
+
+Dependencies must be installed correctly before the installation of scHD4E package, otherwise it may does not work properly.
