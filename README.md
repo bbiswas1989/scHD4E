@@ -14,22 +14,28 @@ Package devtools are required to install many dependent package.
 
 Some package installation code are given below:
 
+Install BiocManager:
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(version = "3.14")
 
+Install edgeR:
 BiocManager::install("edgeR")
 library(edgeR)
 
+Install Limma:
 BiocManager::install("limma")
 library(limma)
 
+Install DESeq2:
 BiocManager::install("DESeq2")
 library(DESeq2)
 
+Install scDD:
 BiocManager::install("scDD")
 library(scDD)
 
+Install BPSC:
 devtools::install_github("nghiavtr/BPSC")
 library(BPSC)
 
