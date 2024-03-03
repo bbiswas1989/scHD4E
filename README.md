@@ -16,7 +16,9 @@ Some package installation code are given below:
 
 Install BiocManager:
 if (!require("BiocManager", quietly = TRUE))
+
     install.packages("BiocManager")
+    
 BiocManager::install(version = "3.14")
 
 BiocManager::install("edgeR")
