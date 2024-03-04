@@ -1,10 +1,10 @@
 Install the scHD4E package using the following: devtools::install_github("bbiswas1989/scHD4E")
-Installation of scHD4E depends on the installation of some dependent package: scDEA, limma, ROSeq, Seurat, MAST, data.table, plyr, dplyr, gmodels, SwarnSeq.
-These packages also depends on many other packages. All the dependencies should be install correctly before installing scHD4E. 
-We suggests the use of R software with version 4.1.1 for the implementation of scHD4E.
+Installation of scHD4E depends on the installation of some dependent packages: scDEA, limma, ROSeq, Seurat, MAST, data.table, plyr, dplyr, gmodels, SwarnSeq.
+These packages also depend on many other packages. All the dependencies should be installed correctly before installing scHD4E. 
+We have used the R software with version 4.1.1 for the development of the scHD4E package.
 
 scDEA (https://github.com/Zhangxf-ccnu/scDEA): The dependencies packages of scDEA are BPSC, DEsingle, DESeq2, edgeR, MAST, monocle, scDD, limma, Seuart, zingeR, scater,
-SingleCellExperiment and aggregation. The guidelines of these package installation includs in scDEA in github.
+SingleCellExperiment and aggregation. The guidelines of these package installations include in scDEA in github.
 
 ROSeq (https://github.com/krishan57gupta/ROSeq): Installation guides are here.
 
@@ -12,7 +12,7 @@ SwarnSeq (https://rdrr.io/github/sam-uofl/SwarnSeq/): Installation code are incl
 
 Package devtools are required to install many dependent package.
 
-Some package installation code are given below:
+Some package installation codes are given below:
 
 Install BiocManager:
 
