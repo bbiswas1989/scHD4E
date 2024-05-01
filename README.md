@@ -59,3 +59,7 @@ devtools::install_github("Zhangxf-ccnu/scDEA")
 install_github('krishan57gupta/ROSeq')
 
 Dependencies must be installed correctly before the installation of scHD4E package, otherwise it may does not work properly.
+
+
+Locally run the shiny application by downloading the R programm file from 
+the following website link: https://github.com/bbiswas1989/scHD4E-Shiny/blob/main/R/scHD4E-Shiny.R
